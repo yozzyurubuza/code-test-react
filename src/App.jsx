@@ -1,8 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Container from "./components/Container";
+import Search from "./components/Search";
 
 function App() {
-  return <div className="App">Start coding!!!</div>;
+  //Display Components here
+  return (
+    <div className="container">
+      <Search />
+    </div>
+  );
 }
 
 export default App;
